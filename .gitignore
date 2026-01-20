@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs & Tests
+*.log
+test_key.py
+test_openrouter.py

@@ -1,0 +1,27 @@
+{
+  "mcp_servers": [
+    {
+      "name": "Local Filesystem",
+      "command": "node",
+      "args": [
+        "./node_modules/@modelcontextprotocol/server-filesystem/dist/index.js",
+        "./playground"
+      ],
+      "env": {}
+    }
+  ],
+  "llm_profiles": [
+    {
+      "name": "Gemini 2.0 Flash (Free)",
+      "provider": "openrouter",
+      "model_name": "google/gemini-2.0-flash-exp:free",
+      "api_key_env_var": "OPENROUTER_API_KEY"
+    },
+    {
+      "name": "Microsoft Phi-3 (Backup)",
+      "provider": "openrouter",
+      "model_name": "microsoft/phi-3-mini-128k-instruct:free",
+      "api_key_env_var": "OPENROUTER_API_KEY"
+    }
+  ]
+}
