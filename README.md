@@ -1,4 +1,4 @@
-# MCP Playground CLI 🤖
+# MCP-CLI 🤖
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -91,5 +91,4 @@ I set up a priority list—if the main model is busy (Error 429), it automatical
 "Gemini is busy": Yeah, the free tier gets hammered. Just hit Up Arrow + Enter to try again, or switch to the Microsoft model in settings.
 
 
-👋 Future Plans
-I'm planning to add a GitHub MCP server next so the agent can review PRs. If you have ideas, feel free to fork this and show me what you built!
+
